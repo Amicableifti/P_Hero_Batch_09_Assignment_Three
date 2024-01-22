@@ -1,11 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey's</title>
+    <!-- Daisy Ui and  Tailwind -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+
+        }
+
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html {
+            background-color: #fff !important;
+        }
+    </style>
+
+    <!-- custom -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primaryColor: '#131318',
+                    }
+                }
+            }
+        }
+    </script>
+
+
 </head>
-<body>
-    
+
+<body class=".font-manrope bg-white">
+    <header class="container mx-auto">
+
+    </header>
+
+    <main class="container mx-auto">
+        <!-- Banner Section -->
+        <section class="my-14">
+            <div class="carousel w-full rounded-lg ">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Professional Hockeys Club -->
+        <section class="border-dashed border-t">
+            <div class="text-primaryColor text-center py-8">
+                <h1 class="text-primaryColor text-2xl  lg:text-4xl mb-5 text-center font-extrabold lg:mb-6 ">Professional Hockeys Club</h1>
+                <p class="px-10 lg:px-60 text-sm lg:text-base text-primaryColor font-normal">Elite athletes unite in our premier hockey club,
+                    fostering skill, teamwork, and legacy of
+                    championship excellence on ice."</p>
+            </div>
+            <div class=" border-dashed border-t border-b percentage grid grid grid-cols-1 md:grid-cols-4 gap-2 py-12">
+                <div class="card items-center">
+                    <div class="radial-progress text-red-500 " style="--value:87;" role="progressbar">87%</div>
+                    <div class="card-body items-center text-center">
+                        <h2 class="text-xl font-semibold text-primaryColor">Prayer Facility</h2>
+                        <p class="text-base text-primaryColor font-normal">Sacred space, serenity, solace through
+                            prayer.</p>
+                    </div>
+                </div>
+                <div class="card items-center">
+                    <div class="radial-progress text-green-500 " style="--value:95;" role="progressbar">95%</div>
+                    <div class="card-body items-center text-center">
+                        <h2 class="text-xl font-semibold text-primaryColor">Experienced Coach</h2>
+                        <p class="text-base text-primaryColor font-normal">Guiding success through seasoned expertise.
+                        </p>
+                    </div>
+                </div>
+                <div class="card items-center">
+                    <div class="radial-progress text-yellow-500 " style="--value:90;" role="progressbar">90%</div>
+                    <div class="card-body items-center text-center">
+                        <h2 class="text-xl font-semibold text-primaryColor">Senior Player</h2>
+                        <p class="text-base text-primaryColor font-normal">Experienced leader, skillful veteran, game
+                            changer.</p>
+                    </div>
+                </div>
+                <div class="card items-center">
+                    <div class="radial-progress text-blue-500 " style="--value:80;" role="progressbar">80%</div>
+                    <div class="card-body items-center text-center">
+                        <h2 class="text-xl font-semibold text-primaryColor">Training Ground</h2>
+                        <p class="text-base text-primaryColor font-normal">Where skills thrive, excellence begins—our
+                            dedicated training ground.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Program Sections -->
+        <section class="lg:mb-24">
+            <div class="text-primaryColor text-center py-8 border-dashed border-b">
+                <h1 class="text-primaryColor text-2xl  lg:text-4xl mb-5 text-center font-extrabold lg:mb-6 ">Program Sections</h1>
+                <p class="text-base text-primaryColor font-normal">Our hockey program offers diverse sections, focusing
+                    on skill development, strategic play, fitness, <br> teamwork, and sportsmanship, ensuring holistic
+                    player
+                    growth</p>
+            </div>
+            <div class=" grid grid-cols-2 lg:grid-cols-2 gap-4 ">
+
+                <div class=" bg-[url('/images/2.png')] pl-10 pb-10 pt-24 bg-cover bg-center rounded-lg ">
+                    <h2 class="text-white mb-3 text-3xl font-bold">Junior Program</h2>
+                    <p class="mb-4 text-white">Our junior program fosters young talent, providing expert
+                        coaching,providing expert coaching,providing expert coaching, skill development, teamwork, and a
+                        fun environment for aspiring athletes.</p>
+                    <div class="card-actions justify-start">
+                        <button class="rounded-md py-2 px-6 bg-red-500 text-white">Register Now!</button>
+                    </div>
+                </div>
+                <div class=" bg-[url('/images/3.png')] pl-10 pb-10 pt-24 bg-cover bg-center rounded-lg ">
+                    <h2 class="text-white mb-3 text-3xl font-bold">Teenager Program</h2>
+                    <p class="mb-4 text-white">Our junior program fosters young talent, providing expert coaching,
+                        providing expert coaching, skill providing expert coaching,development, teamwork, and a fun
+                        environment for aspiring athletes.</p>
+                    <div class="card-actions justify-start">
+                        <button class="rounded-md py-2 px-6 bg-red-500 text-white">Register Now!</button>
+                    </div>
+                </div>
+                <div
+                    class=" lg:col-span-2 bg-[url('/images/4.png')] pl-10 pb-10 pt-52 bg-cover bg-center rounded-lg lg:pr-96">
+                    <h2 class="text-white mb-3 text-3xl font-bold">Junior Program</h2>
+                    <p class="mb-4 lg:pr-96 text-white">Tailored for teens, our program combines advanced coaching,
+                        skill refinement, strategic play, fitness training, and mentorship to empower young athletes,
+                        fostering growth, leadership, and camaraderie on and off the field.</p>
+                    <div class="card-actions justify-start">
+                        <button class="rounded-md py-2 px-6 bg-red-500 text-white">Register Now!</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Our New Products -->
+        <section>
+            <div class="text-primaryColor text-center py-8 border-dashed border-b border-dashed border-t ">
+                <h1 class="text-primaryColor text-2xl  lg:text-4xl mb-5 text-center font-extrabold lg:mb-6 ">Our New Products</h1>
+                <p class="text-base text-primaryColor font-normal">Explore our latest products, designed with innovation
+                    and quality in mind. Elevate your experience with cutting-edge <br> features and stylish designs,
+                    setting
+                    new standards in performance and aesthetics.</p>
+            </div>
+        </section>
+
+        <!-- Client Questions -->
+        <section class="lg:mb-24">
+            <div class="text-primaryColor text-center py-8 border-dashed border-b border-dashed border-t ">
+                <h1 class="text-primaryColor text-2xl  lg:text-4xl mb-5 text-center font-extrabold lg:mb-6 ">Clients Question</h1>
+                <p class="text-base text-primaryColor font-normal">Our clients' questions are our top priority. We
+                    strive to provide prompt, accurate, and personalized answers, ensuring their <br> satisfaction and
+                    confidence in our dedicated support services.</p>
+            </div>
+
+        </section>
+
+        <!-- get in touch -->
+
+
+
+    </main>
+
 </body>
+
 </html>
