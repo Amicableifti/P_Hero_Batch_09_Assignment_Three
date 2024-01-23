@@ -42,6 +42,7 @@
                 extend: {
                     colors: {
                         primaryColor: '#131318',
+                        secoendaryColor : '#13131880',
                     }
                 }
             }
@@ -58,12 +59,12 @@
 
     <main class="container mx-auto">
         <!-- Banner Section -->
-        <section class="my-14">
+        <section class=" my-6 lg:my-14 px-5 lg:px-0">
             <div class="carousel w-full rounded-lg ">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./Images/1.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle ">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                 </div>
@@ -79,7 +80,7 @@
         </section>
         <!-- Professional Hockeys Club -->
         <section class="border-dashed border-t">
-            <div class="text-primaryColor text-center py-8">
+            <div class="text-primaryColor text-center py-6 lg:py-8">
                 <h1 class="text-primaryColor text-2xl  lg:text-4xl mb-5 text-center font-bold lg:mb-6 ">
                     Professional Hockeys Club</h1>
                 <p class="px-10 lg:px-60 text-sm lg:text-base text-primaryColor font-normal">Elite athletes unite in our
@@ -87,7 +88,8 @@
                     fostering skill, teamwork, and legacy of
                     championship excellence on ice."</p>
             </div>
-            <div class=" border-dashed border-t border-b percentage grid grid grid-cols-1 md:grid-cols-4 gap-2 py-12">
+            <div
+                class=" border-dashed border-t border-b percentage grid grid grid-cols-1 md:grid-cols-4 gap-2 py-6 lg:py-12">
                 <div class="card items-center">
                     <div class="radial-progress text-red-500 " style="--value:87;" role="progressbar">87%</div>
                     <div class="card-body items-center text-center">
@@ -126,7 +128,7 @@
 
         <!-- Program Sections -->
         <section class="lg:mb-24">
-            <div class="text-primaryColor text-center py-8 border-dashed border-b">
+            <div class="text-primaryColor text-center py-6 lg:py-8 border-dashed border-b">
                 <h1 class="text-primaryColor text-2xl  lg:text-4xl mb-5 text-center font-bold lg:mb-6 ">Program
                     Sections</h1>
                 <p class="px-10 lg:px-60 text-sm lg:text-base text-primaryColor font-normal">Our hockey program offers
@@ -135,20 +137,23 @@
                     player
                     growth</p>
             </div>
-            <div class=" grid grid-cols-2 lg:grid-cols-2 gap-4 ">
+            <div class=" grid lg:grid-cols-2 lg:grid-cols-2 gap-4 px-5 ">
 
-                <div class=" bg-[url('/images/2.png')] pl-10 pb-10 pt-24 bg-cover bg-center rounded-lg ">
+                <div class="bg-repeat pr-6 lg:pr-10 pl-6 lg:pl-10 pb-6 lg:pb-10 pt-6 lg:pt-24 bg-cover bg-center rounded-lg "
+                    style="background-image: url(/Images/2.png)">
                     <h2 class="text-white mb-3 text-3xl font-bold">Junior Program</h2>
-                    <p class="mb-4 text-white">Our junior program fosters young talent, providing expert
+                    <p class="mb-4 text-white leading-7">Our junior program fosters young talent, providing expert
                         coaching,providing expert coaching,providing expert coaching, skill development, teamwork, and a
                         fun environment for aspiring athletes.</p>
                     <div class="card-actions justify-start">
                         <button class="rounded-md py-2 px-6 bg-red-500 text-white">Register Now!</button>
                     </div>
                 </div>
-                <div class=" bg-[url('/images/3.png')] pl-10 pb-10 pt-24 bg-cover bg-center rounded-lg ">
+                <div
+                    class=" bg-[url('/images/3.png')] pr-6 lg:pr-10 pl-6 lg:pl-10 pb-6 lg:pb-10 pt-6 lg:pt-24 bg-cover bg-center rounded-lg ">
                     <h2 class="text-white mb-3 text-3xl font-bold">Teenager Program</h2>
-                    <p class="mb-4 text-white">Our junior program fosters young talent, providing expert coaching,
+                    <p class="mb-4 text-white leading-7">Our junior program fosters young talent, providing expert
+                        coaching,
                         providing expert coaching, skill providing expert coaching,development, teamwork, and a fun
                         environment for aspiring athletes.</p>
                     <div class="card-actions justify-start">
@@ -156,9 +161,10 @@
                     </div>
                 </div>
                 <div
-                    class=" lg:col-span-2 bg-[url('/images/4.png')] pl-10 pb-10 pt-52 bg-cover bg-center rounded-lg lg:pr-96">
+                    class=" lg:col-span-2 bg-[url('/images/4.png')] pl-6 lg:pl-10 pb-6 lg:pb-10 pt-6 lg:pt-52 bg-cover bg-center rounded-lg lg:pr-96">
                     <h2 class="text-white mb-3 text-3xl font-bold">Junior Program</h2>
-                    <p class="mb-4 lg:pr-96 text-white">Tailored for teens, our program combines advanced coaching,
+                    <p class="mb-4 pr-6 lg:pr-60 text-white leading-7">Tailored for teens, our program combines advanced
+                        coaching,
                         skill refinement, strategic play, fitness training, and mentorship to empower young athletes,
                         fostering growth, leadership, and camaraderie on and off the field.</p>
                     <div class="card-actions justify-start">
@@ -170,14 +176,192 @@
         </section>
 
         <!-- Our New Products -->
-        <section>
-            <div class="text-primaryColor text-center py-8 border-dashed border-b border-dashed border-t ">
+        <section class="px-5">
+            <div class="text-primaryColor text-center mt-6 py-6 lg:py-8 border-dashed border-b border-dashed border-t ">
                 <h1 class="text-primaryColor text-2xl  lg:text-4xl mb-5 text-center font-bold lg:mb-6 ">Our New
                     Products</h1>
                 <p class="px-10 lg:px-60 text-sm lg:text-base text-primaryColor font-normal">Explore our latest
                     products, designed with innovation
                     and quality in mind. Elevate your experience with cutting-edge features and stylish designs,
                     setting new standards in performance and aesthetics.</p>
+            </div>
+            <div class=" py-12 gap-4 lg:gap-3 grid lg:grid-cols-2">
+                <!-- per box 01 -->
+                <div class=" lg:flex gap-4 p-6 border rounded-xl justify-center items-center  ">
+                    <div class="img mb-6 lg:mb-auto"> <img class="w-full lg:w-auto" src="./Images/5.png" alt=""></div>
+                    <div class="content">
+                        <div class="startViewWistlist flex justify-start space-x-6 text-secoendaryColor">
+                            <div class="star">
+                                <i class="fa-solid fa-star text-orange-400"></i>
+                                <span>5.0</span>
+                            </div>
+                            <div class="view">
+                                <i class="fa-regular fa-eye"></i>
+                                <span>20</span>
+                            </div>
+                            <div class="wistlist">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>200</span>
+                            </div>
+                        </div>
+                        <h1 class="my-1 text-primaryColor text-xl font-bold"> World Cup Flags Football</h1>
+                        <p class="mb-2 text-primaryColor leading-6">Colorful flags unite, waving proud in the World Cup
+                            football celebration.</p>
+                        <div class="priceDelivery lg:flex justify-between">
+                            <span class="text-red-500 font-bold ">Price - $22.00</span>
+                            <div class="delivery mt-3 lg:mt-auto flex items-center text-secoendaryColor">
+                                <i class="fa-solid fa-truck "></i>
+                                <span class="ml-2">Delivery Fee : Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- per box 02 -->
+                <div class=" lg:flex gap-4 p-6 border rounded-xl justify-center items-center justify-items-center ">
+                    <div class="img mb-6 lg:mb-auto"> <img class="w-full lg:w-auto" src="./Images/6.png" alt=""></div>
+                    <div class="content">
+                        <div class="startViewWistlist flex justify-start space-x-6 text-secoendaryColor">
+                            <div class="star">
+                                <i class="fa-solid fa-star text-orange-400"></i>
+                                <span>5.0</span>
+                            </div>
+                            <div class="view">
+                                <i class="fa-regular fa-eye"></i>
+                                <span>20</span>
+                            </div>
+                            <div class="wistlist">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>200</span>
+                            </div>
+                        </div>
+                        <h1 class="my-1 text-primaryColor text-xl font-bold"> World Cup Flags Football</h1>
+                        <p class="mb-2 text-primaryColor leading-6">Colorful flags unite, waving proud in the World Cup
+                            football celebration.</p>
+                        <div class="priceDelivery lg:flex justify-between">
+                            <span class="text-red-500 font-bold ">Price - $22.00</span>
+                            <div class="delivery mt-3 lg:mt-auto flex items-center text-secoendaryColor">
+                                <i class="fa-solid fa-truck "></i>
+                                <span class="ml-2">Delivery Fee : Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- per box 03 -->
+                <div class=" lg:flex gap-4 p-6 border rounded-xl justify-center items-center justify-items-center ">
+                    <div class="img mb-6 lg:mb-auto"> <img class="w-full lg:w-auto" src="./Images/7.png" alt=""></div>
+                    <div class="content">
+                        <div class="startViewWistlist flex justify-start space-x-6 text-secoendaryColor">
+                            <div class="star">
+                                <i class="fa-solid fa-star text-orange-400"></i>
+                                <span>5.0</span>
+                            </div>
+                            <div class="view">
+                                <i class="fa-regular fa-eye"></i>
+                                <span>20</span>
+                            </div>
+                            <div class="wistlist">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>200</span>
+                            </div>
+                        </div>
+                        <h1 class="my-1 text-primaryColor text-xl font-bold"> Cap For Hockey</h1>
+                        <p class="mb-2 text-primaryColor leading-6">Top-quality hockey caps: style, comfort, and team pride in every design.</p>
+                        <div class="priceDelivery lg:flex justify-between">
+                            <span class="text-red-500 font-bold ">Price - $22.00</span>
+                            <div class="delivery mt-3 lg:mt-auto flex items-center text-secoendaryColor">
+                                <i class="fa-solid fa-truck "></i>
+                                <span class="ml-2">Delivery Fee : Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- per box 04 -->
+                <div class=" lg:flex gap-4 p-6 border rounded-xl justify-center items-center justify-items-center ">
+                    <div class="img mb-6 lg:mb-auto"> <img class="w-full lg:w-auto" src="./Images/8.png" alt=""></div>
+                    <div class="content">
+                        <div class="startViewWistlist flex justify-start space-x-6 text-secoendaryColor">
+                            <div class="star">
+                                <i class="fa-solid fa-star text-orange-400"></i>
+                                <span>5.0</span>
+                            </div>
+                            <div class="view">
+                                <i class="fa-regular fa-eye"></i>
+                                <span>20</span>
+                            </div>
+                            <div class="wistlist">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>200</span>
+                            </div>
+                        </div>
+                        <h1 class="my-1 text-primaryColor text-xl font-bold"> Cap For Hockey</h1>
+                        <p class="mb-2 text-primaryColor leading-6">Top-quality hockey caps: style, comfort, and team pride in every design.</p>
+                        <div class="priceDelivery lg:flex justify-between">
+                            <span class="text-red-500 font-bold ">Price - $22.00</span>
+                            <div class="delivery mt-3 lg:mt-auto flex items-center text-secoendaryColor">
+                                <i class="fa-solid fa-truck "></i>
+                                <span class="ml-2">Delivery Fee : Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- per box 05 -->
+                <div class=" lg:flex gap-4 p-6 border rounded-xl justify-center items-center justify-items-center ">
+                    <div class="img mb-6 lg:mb-auto"> <img class="w-full lg:w-auto" src="./Images/9.png" alt=""></div>
+                    <div class="content">
+                        <div class="startViewWistlist flex justify-start space-x-6 text-secoendaryColor">
+                            <div class="star">
+                                <i class="fa-solid fa-star text-orange-400"></i>
+                                <span>5.0</span>
+                            </div>
+                            <div class="view">
+                                <i class="fa-regular fa-eye"></i>
+                                <span>20</span>
+                            </div>
+                            <div class="wistlist">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>200</span>
+                            </div>
+                        </div>
+                        <h1 class="my-1 text-primaryColor text-xl font-bold"> Cap For Hockey</h1>
+                        <p class="mb-2 text-primaryColor leading-6">Top-quality hockey caps: style, comfort, and team pride in every design.</p>
+                        <div class="priceDelivery lg:flex justify-between">
+                            <span class="text-red-500 font-bold ">Price - $22.00</span>
+                            <div class="delivery mt-3 lg:mt-auto flex items-center text-secoendaryColor">
+                                <i class="fa-solid fa-truck "></i>
+                                <span class="ml-2">Delivery Fee : Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- per box 06 -->
+                <div class=" lg:flex gap-4 p-6 border rounded-xl justify-center items-center justify-items-center ">
+                    <div class="img mb-6 lg:mb-auto"> <img class="w-full lg:w-auto" src="./Images/10.png" alt=""></div>
+                    <div class="content">
+                        <div class="startViewWistlist flex justify-start space-x-6 text-secoendaryColor">
+                            <div class="star">
+                                <i class="fa-solid fa-star text-orange-400"></i>
+                                <span>5.0</span>
+                            </div>
+                            <div class="view">
+                                <i class="fa-regular fa-eye"></i>
+                                <span>20</span>
+                            </div>
+                            <div class="wistlist">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>200</span>
+                            </div>
+                        </div>
+                        <h1 class="my-1 text-primaryColor text-xl font-bold"> Cap For Hockey</h1>
+                        <p class="mb-2 text-primaryColor leading-6">Top-quality hockey caps: style, comfort, and team pride in every design.</p>
+                        <div class="priceDelivery lg:flex justify-between">
+                            <span class="text-red-500 font-bold ">Price - $22.00</span>
+                            <div class="delivery mt-3 lg:mt-auto flex items-center text-secoendaryColor">
+                                <i class="fa-solid fa-truck "></i>
+                                <span class="ml-2">Delivery Fee : Free</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -212,9 +396,12 @@
     <footer class="footer p-10 bg-primaryColor text-base-content lg:px-32 lg:py-24 grid grid-cols-2 lg:grid-cols-5">
         <aside class="col-span-2 place-items-center lg:place-items-start">
             <h1 class="text-white text-3xl font-bold mb-4"> Get In Touch </h1>
-            <p class="mb-4 lg:pr-60 text-white text-center lg:text-left">For any inquiries or collaborations, don't hesitate to reach out.</p>
-            <p class="mb-1 lg:pr-60 text-white"> <span class="mr-2 text-red-600"><i class="fa-solid fa-envelope"></i></span>hockeys@support.com</p>
-            <p class="mb-1 lg:pr-60 text-white"><span class="mr-2 text-red-600"><i class="fa-solid fa-phone"></i></span>(+62) 123-321-543</p>
+            <p class="mb-4 lg:pr-60 text-white text-center lg:text-left">For any inquiries or collaborations, don't
+                hesitate to reach out.</p>
+            <p class="mb-1 lg:pr-60 text-white"> <span class="mr-2 text-red-600"><i
+                        class="fa-solid fa-envelope"></i></span>hockeys@support.com</p>
+            <p class="mb-1 lg:pr-60 text-white"><span class="mr-2 text-red-600"><i
+                        class="fa-solid fa-phone"></i></span>(+62) 123-321-543</p>
         </aside>
         <nav class="col-span-1 place-items-center lg:place-items-start">
             <header class="text-white mb-6">Company</header>
